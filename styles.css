@@ -1,0 +1,9 @@
+.main-page{
+    display: flex;
+    gap: 65px;
+    
+}
+
+.right-side{
+    align-self: center;
+}
