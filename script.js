@@ -91,6 +91,7 @@ function BtnClick(ctrl,iR)
 
     if(total == 20){
         alert("you won!");
+        playAgainButton();
     }
     let fail = 0;
     for(let i =0; i <20; i ++){
@@ -108,6 +109,7 @@ function BtnClick(ctrl,iR)
 function newNum(){
     document.querySelector(".playAgain").style.display = "none";
     document.querySelector('.randomized-number').style.display = "block";
+    document.querySelectorAll(".open").disabled = false;
     
 
     let num = getNum();
