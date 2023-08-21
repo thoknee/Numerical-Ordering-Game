@@ -4,21 +4,38 @@
     
 }
 
+*{
+    font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
+}
+
 .right-side{
     align-self: center;
 }
 
 .open{
     
-    background-color: green;
-
+    background-color: lightgreen;
+    border: none;
+    padding: 3px 12px;
+    margin: 3px;
 }
 
 .closed{
     
-    background-color: red;
+    background-color: rgb(230, 131, 131);
+    border: none;
+    padding: 3px 12px;
+    margin: 3px;
 }
 
 .filled{
     background-color: none;
+    border: none;
+    padding: 3px 12px;
+    margin: 3px;
+
+}
+
+.playAgain{
+    display: none;
 }
