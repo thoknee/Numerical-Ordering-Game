@@ -1,3 +1,5 @@
 # NumberGame
 
-At some point, putting numbers in order without knowing what's coming next was trending on tiktok but it was annoying to play with the tiktok filter. So, I made an extremely simple website that could allow you to play the game.
+Over the summer, a tiktok trend came about ordering things without knowing what comes next. The tiktok filter would give you a random food, sports player, restuarant, etc. and you would rank it 1-5 without knowing what the next thing will be creating a fun game to play. With things like food and sports players, this was pretty subjective as some people would prefer certain foods and other people would prefer something else. So, people started doing it with numbers where you would try to order 5,10, and finally 20 numbers numerically without knowing the numbers that will come next.
+
+Unhappy with the tiktok filter/interface I decided to code a simple javascript version that is more accessible,easier to use, and more intuitive. It isn't anything terribly special, but it was a cool little side project to work on over the summer.
