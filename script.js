@@ -74,9 +74,7 @@ function open(val){
 
 function BtnClick(ctrl,iR)
 {
-    
-    
-    
+
     total++;
     ctrl.innerHTML=curVal;
     arr[iR]=curVal;
@@ -126,6 +124,7 @@ function playAgainButton(){
 }
 
 function playAgain(){
+    total = 0;
     for(let i =0; i<20; i++){
         arr[i] = null;
         
@@ -138,29 +137,3 @@ function playAgain(){
         document.querySelector(".playAgain").style.display = "none";
 }
 
-
-
-
-
-/*  for(let i = 0; i <20; i++){
-       
-        if(arr[i] != null){
-            if(curVal > arr[i]){
-                for(let j = 0; j < i ; j++ ){ 
-                    document.getElementById(`num` + `${j+1}`).classList.add("closed");
-                    document.getElementById(`num` + `${j+1}`).classList.remove("open");
-                    document.getElementById(`num` + `${j+1}`).disabled = true;
-                }
-            }
-            for(let k = 19; k > -1; k--){
-                if(curVal <arr[k] ){
-                    for(let l = 19; l > k; l--){
-                        document.getElementById(`num` + `${l+1}`).classList.add("closed");
-                        document.getElementById(`num` + `${l+1}`).classList.remove("open");
-                        document.getElementById(`num` + `${l+1}`).disabled = true;
-                    }
-                }
-            
-        }
-    }
-    }*/
