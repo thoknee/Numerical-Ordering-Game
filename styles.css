@@ -7,3 +7,18 @@
 .right-side{
     align-self: center;
 }
+
+.open{
+    
+    background-color: green;
+
+}
+
+.closed{
+    
+    background-color: red;
+}
+
+.filled{
+    background-color: none;
+}
